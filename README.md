@@ -51,7 +51,13 @@ The Date column cannot be included as it is in the model. Either you can drop th
 -  day
 -  day of week
 
-Drop lines containing invalid values or outliers : In this project, will be considered as outliers all the numeric features that don't fall within the range : 
+Drop lines containing invalid values or outliers : In this project, will be considered as outliers all the numeric features that don't fall within the range : [ 
+X
+ˉ
+ −3σ, 
+X
+ˉ
+ +3σ] 
 This concerns the columns : Temperature, Fuel_price, CPI and Unemployment
 
 Target variable/target (Y) that we will try to predict, to separate from the others : Weekly_Sales
